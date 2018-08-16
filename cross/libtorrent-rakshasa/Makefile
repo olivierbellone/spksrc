@@ -1,14 +1,14 @@
 PKG_NAME = libtorrent
-PKG_VERS = 0.13.6
+PKG_VERS = 0.13.7
 PKG_EXT = tar.gz
-PKG_DIST_NAME = $(PKG_VERS).$(PKG_EXT)
+PKG_DIST_NAME = v$(PKG_VERS).$(PKG_EXT)
 PKG_DIST_FILE = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
 PKG_DIST_SITE = https://github.com/rakshasa/libtorrent/archive
 PKG_DIR = $(PKG_NAME)-$(PKG_VERS)
 
 DEPENDS = cross/openssl cross/libsigc++ cross/zlib
 
-HOMEPAGE = https://rakshasa.github.io
+HOMEPAGE = https://github.com/rakshasa/rtorrent/wiki
 COMMENT  = LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code.
 LICENSE  = GPLv2
 
